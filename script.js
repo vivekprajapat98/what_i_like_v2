@@ -43,13 +43,22 @@ function createMessage(message) {
     }, 6000);
 }
 
-// Create messages at intervals
-messages.forEach((msg, index) => {
-    setTimeout(() => createMessage(msg), index * 7000);
-});
+function startMessages() {
+    document.getElementById('default-message').style.display = 'none';
+    document.getElementById('yes-tell-me').style.display = 'none';
+    document.getElementById('message-container').style.display = 'block';
 
-// Play music on button click
-document.getElementById('play-music').addEventListener('click', () => {
+    // Start playing music
     const audio = document.getElementById('background-music');
-    audio.play();
-});
+    audio.play().catch(error => {
+        console.error('Audio playback error:', error);
+    });
+
+    // Create messages at intervals
+    messages.forEach((msg, index) => {
+        setTimeout(() => createMessage(msg), index * 7000);
+    });
+}
+
+// Handle button click to start messages and music
+document.getElementById('yes-tell-me').addEventListener('click', startMessages);
