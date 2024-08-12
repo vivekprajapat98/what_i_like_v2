@@ -35,8 +35,8 @@ body {
 }
 
 .message img {
-    max-width: 100px; /* Limit GIF size */
-    max-height: 100px; /* Limit GIF size */
+    max-width: 400px; /* Limit GIF size */
+    max-height: 400px; /* Limit GIF size */
     display: block;
     margin: 0 auto;
 }
