@@ -7,58 +7,59 @@ const messages = [
     // Add more messages and Tenor GIF URLs as needed
 ];
 
-function createMessage(message) {
-    const div = document.createElement('div');
-    div.className = 'message';
+    function createMessage(message) {
+        const div = document.createElement('div');
+        div.className = 'message';
 
-    // Create a container for text and GIF
-    const container = document.createElement('div');
-    
-    // Add text
-    const textNode = document.createElement('div');
-    textNode.textContent = message.text;
-    container.appendChild(textNode);
+        // Create a container for text and GIF
+        const container = document.createElement('div');
+        
+        // Add text
+        const textNode = document.createElement('div');
+        textNode.textContent = message.text;
+        container.appendChild(textNode);
 
-    // Add GIF
-    const imgNode = document.createElement('img');
-    imgNode.src = message.gif;
-    container.appendChild(imgNode);
+        // Add GIF
+        const imgNode = document.createElement('img');
+        imgNode.src = message.gif;
+        container.appendChild(imgNode);
 
-    div.appendChild(container);
-    document.getElementById('message-container').appendChild(div);
+        div.appendChild(container);
+        document.getElementById('message-container').appendChild(div);
 
-    // Randomize position
-    div.style.top = `${Math.random() * 70}vh`;
-    div.style.left = `${Math.random() * 70}vw`;
+        // Randomize position
+        div.style.top = `${Math.random() * 70}vh`;
+        div.style.left = `${Math.random() * 70}vw`;
 
-    // Fade in effect
-    setTimeout(() => {
-        div.style.opacity = 1;
-    }, 100);
+        // Fade in effect
+        setTimeout(() => {
+            div.style.opacity = 1;
+        }, 100);
 
-    // Remove the message after some time
-    setTimeout(() => {
-        div.style.opacity = 0;
-        setTimeout(() => div.remove(), 1000);
-    }, 6000);
-}
+        // Remove the message after some time
+        setTimeout(() => {
+            div.style.opacity = 0;
+            setTimeout(() => div.remove(), 1000);
+        }, 6000);
+    }
 
-function startMessages() {
-    document.getElementById('default-message').style.display = 'none';
-    document.getElementById('yes-tell-me').style.display = 'none';
-    document.getElementById('message-container').style.display = 'block';
+    function startMessages() {
+        document.getElementById('default-message').style.display = 'none';
+        document.getElementById('yes-tell-me').style.display = 'none';
+        document.getElementById('message-container').style.display = 'block';
 
-    // Start playing music
-    const audio = document.getElementById('background-music');
-    audio.play().catch(error => {
-        console.error('Audio playback error:', error);
-    });
+        // Start playing music
+        const audio = document.getElementById('background-music');
+        audio.play().catch(error => {
+            console.error('Audio playback error:', error);
+        });
 
-    // Create messages at intervals
-    messages.forEach((msg, index) => {
-        setTimeout(() => createMessage(msg), index * 7000);
-    });
-}
+        // Create messages at intervals
+        messages.forEach((msg, index) => {
+            setTimeout(() => createMessage(msg), index * 7000);
+        });
+    }
 
-// Handle button click to start messages and music
-document.getElementById('yes-tell-me').addEventListener('click', startMessages);
+    // Handle button click to start messages and music
+    document.getElementById('yes-tell-me').addEventListener('click', startMessages);
+});
