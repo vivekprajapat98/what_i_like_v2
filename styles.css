@@ -16,7 +16,8 @@ body {
 
 #default-message {
     font-size: 24px;
-    color: #fff;
+    color: #000; /* Black color */
+    font-weight: bold; /* Bold text */
     margin-bottom: 20px;
 }
 
