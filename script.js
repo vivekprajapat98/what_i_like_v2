@@ -1,9 +1,9 @@
 const messages = [
-    { text: "Your smile lights up my world!", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"" },
-    { text: "You are my favorite notification.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"" },
-    { text: "Every moment with you is a treasure.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"" },
-    { text: "You have a heart of gold.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"" },
-    { text: "My day starts with thoughts of you.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"" },
+    { text: "Your smile lights up my world!", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"},
+    { text: "You are my favorite notification.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"},
+    { text: "Every moment with you is a treasure.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"},
+    { text: "You have a heart of gold.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"},
+    { text: "My day starts with thoughts of you.", gif: "https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433"},
     // Add more messages and Tenor GIF URLs as needed
 ];
 
