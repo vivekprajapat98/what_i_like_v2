@@ -1,16 +1,22 @@
 body {
     background-color: #ffc0cb; /* Pink background color */
     margin: 0;
-    padding: 0;
+    overflow: hidden;
     font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
 }
 
 #default-message {
     font-size: 24px;
     color: #000; /* Black color */
     font-weight: bold; /* Bold text */
-    text-align: center; /* Center align text */
-    margin: 20px;
+    margin-bottom: 20px;
+
 }
 
 #yes-tell-me {
@@ -19,6 +25,10 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #ff9999;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .message {
