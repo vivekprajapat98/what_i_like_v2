@@ -3,6 +3,14 @@ body {
     overflow: hidden;
     font-family: 'Courier New', Courier, monospace;
     background-color: #ffe5e5; /* Solid pink background */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between; /* Pushes content to the top and button to the bottom */
+}
+
+#message-container {
+    flex: 1; /* Allows the message container to take up remaining space */
 }
 
 .message {
@@ -35,8 +43,20 @@ body {
 }
 
 .message img {
-    max-width: 400px; /* Limit GIF size */
-    max-height: 400px; /* Limit GIF size */
+    max-width: 100px; /* Limit GIF size */
+    max-height: 100px; /* Limit GIF size */
     display: block;
     margin: 0 auto;
+}
+
+#play-music {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff9999;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative; /* Ensure positioning works */
 }
