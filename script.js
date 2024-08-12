@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const messages = [
-        { text: "Your smile lights up my world!", tenorId: "253027946666209433" },
+        { text: "Your smile lights up my world!", tenorId: "4875956593066505581" },
         { text: "You are my favorite notification.", tenorId: "4875956593066505581" },
         { text: "Every moment with you is a treasure.", tenorId: "253027946666209433" },
         { text: "You have a heart of gold.", tenorId: "253027946666209433" },
