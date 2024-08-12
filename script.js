@@ -47,3 +47,9 @@ function createMessage(message) {
 messages.forEach((msg, index) => {
     setTimeout(() => createMessage(msg), index * 7000);
 });
+
+// Play music on button click
+document.getElementById('play-music').addEventListener('click', () => {
+    const audio = document.getElementById('background-music');
+    audio.play();
+});
