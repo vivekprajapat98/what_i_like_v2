@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { text: "Your joy is my favorite thing. 🌈", tenorId: "18068148982396533821" },
     { text: "You are a true blessing in my life. 🙏", tenorId: "4875956593066505581" },
     { text: "You are my Purple. 💜", tenorId: "25731506" },
+    { text: "I’m wishing you on the dandelions. 🌼✨🍃", tenorId: "25731506" },
     { text: "You are still my 11:11 wish. ✨💫💖", tenorId: "25731506" },
     { text: "I want you to be my 7 minutes. ⏱️", tenorId: "25731506" },
 ];
