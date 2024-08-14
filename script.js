@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { text: "Your constant support uplifts me and makes me feel like I can conquer anything. 💪🌈", tenorId: "19171294" },
     { text: "Your kindness lights up my world and makes every moment together special. 🌟💖", tenorId: "25854521" },
     { text: "Your unwavering trust in me creates a bond that I cherish deeply. 🌟🤝", tenorId: "17174161540002271472" },
-    { text: "Your loyalty is a testament to the strength and depth of our connection. 💪❤", tenorId: "4875956593066505581" },
+    { text: "Your loyalty is a testament to the strength and depth of our connection. 💪💖", tenorId: "4875956593066505581" },
     { text: "Your smile lights up my world! 😊", tenorId: "25731506" },
     { text: "You are my favorite notification. 📲", tenorId: "5010733405759854237" },
     { text: "Every moment with you is a treasure. 💎", tenorId: "19171294" },
