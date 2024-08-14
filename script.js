@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const messages = [
-    { text: "As you read through the reasons why I adore you, know that each one reflects the depth of my feelings. 💖", tenorId: "15739559390318719326" },
-    { text: "Your trust, loyalty, kindness, and unwavering support make you truly exceptional. 🌟", tenorId: "15739559390318719326" },
-    { text: "Every moment with you is precious, and you continue to light up my life in ways I can’t fully express. 🌈✨", tenorId: "15739559390318719326" },
-    { text: "Thank you for being such an incredible person. You are my everything!! 🥰💖", tenorId: "15739559390318719326" },
     { text: "Your understanding nature makes me feel truly seen and heard. 🥰🌟", tenorId: "25731506" },
     { text: "Your constant support uplifts me and makes me feel like I can conquer anything. 💪🌈", tenorId: "19171294" },
     { text: "Your kindness lights up my world and makes every moment together special. 🌟💖", tenorId: "25854521" },
@@ -110,7 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
     { text: "As you read through the reasons why I adore you, know that each one reflects the depth of my feelings. 💖", tenorId: "15739559390318719326" },
     { text: "Your trust, loyalty, kindness, and unwavering support make you truly exceptional. 🌟", tenorId: "15739559390318719326" },
     { text: "Every moment with you is precious, and you continue to light up my life in ways I can’t fully express. 🌈✨", tenorId: "15739559390318719326" },
-    { text: "Thank you for being such an incredible person. You are my everything!! 🥰💖", tenorId: "15739559390318719326" },
+    { text: "Thank you for being such an incredible person. 🥰💖", tenorId: "15739559390318719326" },
+    { text: "You are my everything!! 🥰💖", tenorId: "15739559390318719326" },
     ];
 
     function createMessage(message) {
